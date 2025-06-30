@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registrar Reporte</title>
+  <link rel="stylesheet" href="../styles/reportes.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h1>Registrar Incidente</h1>
+    <form id="reporteForm">
+      <label for="tipo">Tipo de incidente</label>
+      <select id="tipo" name="tipo" required>
+        <option value="">Selecciona uno</option>
+        <option value="Robo">Robo</option>
+        <option value="Asalto">Asalto</option>
+        <option value="Hurto">Hurto</option>
+        <option value="Otro">Otro</option>
+      </select>
+
+      <label for="descripcion">Descripción</label>
+      <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+
+      <label for="lat">Latitud</label>
+      <input type="number" step="any" id="lat" name="lat" required />
+
+      <label for="lng">Longitud</label>
+      <input type="number" step="any" id="lng" name="lng" required />
+
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="correo">Correo electrónico</label>
+      <input type="email" id="correo" name="correo" required />
+
+      <button type="submit">Enviar Reporte</button>
+      <a href="dashboard.html" class="btn-volver">← Volver al Dashboard</a>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('reporteForm').addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      const data = {
+        tipo: this.tipo.value,
+        descripcion: this.descripcion.value,
+        lat: parseFloat(this.lat.value),
+        lng: parseFloat(this.lng.value),
+        usuario: {
+          nombre: this.nombre.value,
+          correo: this.correo.value
+        }
+      };
+
+      const response = await fetch('http://localhost:3000/reportes', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      });
+
+      if (response.ok) {
+        alert('Reporte enviado correctamente ✅');
+        this.reset();
+      } else {
+        alert('Hubo un error al enviar el reporte ❌');
+      }
+    });
+  </script>
+</body>
+</html>

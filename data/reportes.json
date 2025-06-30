@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "tipo": "Robo",
+    "descripcion": "Robo de celular en Miraflores",
+    "lat": -12.121,
+    "lng": -77.03,
+    "fecha": "2025-06-01T10:30:00",
+    "usuario": {
+      "nombre": "Juan Pérez",
+      "correo": "juanperez@example.com"
+    }
+  },
+  {
+    "id": 2,
+    "tipo": "Asalto",
+    "descripcion": "Asalto armado en San Juan de Lurigancho",
+    "lat": -12.015,
+    "lng": -76.973,
+    "fecha": "2025-05-28T21:15:00",
+    "usuario": {
+      "nombre": "Lucía Torres",
+      "correo": "lucia.torres@example.com"
+    }
+  },
+  {
+    "id": 3,
+    "tipo": "Hurto",
+    "descripcion": "Hurto menor en Surco",
+    "lat": -12.139,
+    "lng": -76.9915,
+    "fecha": "2025-05-30T14:45:00",
+    "usuario": {
+      "nombre": "Carlos Mendoza",
+      "correo": "c.mendoza@example.com"
+    }
+  },
+  {
+    "id": 4,
+    "tipo": "Robo",
+    "descripcion": "Robo en colectivo en Comas",
+    "lat": -11.964,
+    "lng": -77.057,
+    "fecha": "2025-06-01T19:20:00",
+    "usuario": {
+      "nombre": "María Rojas",
+      "correo": "m.rojas@example.com"
+    }
+  },
+  {
+    "id": 5,
+    "tipo": "Estafa",
+    "descripcion": "Estafa virtual desde La Molina",
+    "lat": -12.088,
+    "lng": -76.934,
+    "fecha": "2025-06-02T08:10:00",
+    "usuario": {
+      "nombre": "Raúl Díaz",
+      "correo": "raul.diaz@example.com"
+    }
+  },
+  {
+    "id": 6,
+    "tipo": "Robo",
+    "descripcion": "Robo en combi en San Miguel",
+    "lat": -12.079,
+    "lng": -77.08,
+    "fecha": "2025-05-25T22:10:00",
+    "usuario": {
+      "nombre": "Ana Salas",
+      "correo": "ana.s@example.com"
+    }
+  },
+  {
+    "id": 7,
+    "tipo": "Asalto",
+    "descripcion": "Asalto a mano armada en Ate",
+    "lat": -12.049,
+    "lng": -76.928,
+    "fecha": "2025-06-01T18:00:00",
+    "usuario": {
+      "nombre": "Pedro Gómez",
+      "correo": "pedrog@example.com"
+    }
+  },
+  {
+    "id": 8,
+    "tipo": "Hurto",
+    "descripcion": "Hurto en supermercado en Chorrillos",
+    "lat": -12.185,
+    "lng": -77.01,
+    "fecha": "2025-05-27T13:00:00",
+    "usuario": {
+      "nombre": "Mónica Lee",
+      "correo": "monica.lee@example.com"
+    }
+  },
+  {
+    "id": 9,
+    "tipo": "Robo",
+    "descripcion": "Robo en cajero automático en Barranco",
+    "lat": -12.144,
+    "lng": -77.021,
+    "fecha": "2025-06-01T09:30:00",
+    "usuario": {
+      "nombre": "Luis Zapata",
+      "correo": "luisz@example.com"
+    }
+  },
+  {
+    "id": 10,
+    "tipo": "Estafa",
+    "descripcion": "Estafa por llamada falsa en Jesús María",
+    "lat": -12.074,
+    "lng": -77.05,
+    "fecha": "2025-05-29T11:30:00",
+    "usuario": {
+      "nombre": "Valeria Chacón",
+      "correo": "valeria.ch@example.com"
+    }
+  },
+  {
+    "id": 11,
+    "tipo": "Hurto",
+    "descripcion": "Hurto de mochila en Metropolitano",
+    "lat": -12.068,
+    "lng": -77.041,
+    "fecha": "2025-05-30T18:15:00",
+    "usuario": {
+      "nombre": "Andrés Navas",
+      "correo": "andresn@example.com"
+    }
+  },
+  {
+    "id": 12,
+    "tipo": "Robo",
+    "descripcion": "Robo de bicicleta en San Borja",
+    "lat": -12.107,
+    "lng": -76.998,
+    "fecha": "2025-06-01T17:10:00",
+    "usuario": {
+      "nombre": "Daniel Castro",
+      "correo": "dcastro@example.com"
+    }
+  },
+  {
+    "id": 13,
+    "tipo": "Asalto",
+    "descripcion": "Asalto a bus interprovincial",
+    "lat": -12.005,
+    "lng": -76.975,
+    "fecha": "2025-05-28T05:50:00",
+    "usuario": {
+      "nombre": "Erika Fernández",
+      "correo": "erika.f@example.com"
+    }
+  },
+  {
+    "id": 14,
+    "tipo": "Robo",
+    "descripcion": "Robo de laptop en centro comercial",
+    "lat": -12.096,
+    "lng": -76.964,
+    "fecha": "2025-05-31T20:00:00",
+    "usuario": {
+      "nombre": "Sandro Álvarez",
+      "correo": "salvarez@example.com"
+    }
+  },
+  {
+    "id": 15,
+    "tipo": "Hurto",
+    "descripcion": "Hurto de cartera en parque Kennedy",
+    "lat": -12.121,
+    "lng": -77.029,
+    "fecha": "2025-06-01T14:20:00",
+    "usuario": {
+      "nombre": "Jimena Ruiz",
+      "correo": "jimena.r@example.com"
+    }
+  },
+  {
+    "id": 16,
+    "tipo": "Estafa",
+    "descripcion": "Estafa con QR en La Victoria",
+    "lat": -12.077,
+    "lng": -77.026,
+    "fecha": "2025-05-29T16:45:00",
+    "usuario": {
+      "nombre": "Ricardo Paredes",
+      "correo": "ricardop@example.com"
+    }
+  },
+  {
+    "id": 17,
+    "tipo": "Robo",
+    "descripcion": "Robo en taxi en Pueblo Libre",
+    "lat": -12.076,
+    "lng": -77.086,
+    "fecha": "2025-05-27T07:00:00",
+    "usuario": {
+      "nombre": "Gabriela Ocampo",
+      "correo": "gaby.ocampo@example.com"
+    }
+  },
+  {
+    "id": 18,
+    "tipo": "Asalto",
+    "descripcion": "Asalto en calle oscura en El Agustino",
+    "lat": -12.048,
+    "lng": -76.987,
+    "fecha": "2025-05-30T03:30:00",
+    "usuario": {
+      "nombre": "Tomás Huamán",
+      "correo": "th@example.com"
+    }
+  },
+  {
+    "id": 19,
+    "tipo": "Hurto",
+    "descripcion": "Hurto en zona universitaria San Marcos",
+    "lat": -12.057,
+    "lng": -77.082,
+    "fecha": "2025-06-01T11:45:00",
+    "usuario": {
+      "nombre": "Natalia Ramos",
+      "correo": "nat.ramos@example.com"
+    }
+  },
+  {
+    "id": 20,
+    "tipo": "Robo",
+    "descripcion": "Robo en Plaza Norte",
+    "lat": -12.01,
+    "lng": -77.06,
+    "fecha": "2025-06-02T01:00:00",
+    "usuario": {
+      "nombre": "Joel Chumpitaz",
+      "correo": "joel.chumpi@example.com"
+    }
+  },
+  {
+    "id": 21,
+    "tipo": "Robo",
+    "descripcion": "ffffgg",
+    "lat": -12.04318,
+    "lng": 77.02824,
+    "fecha": "2025-06-02T05:59:19.939Z",
+    "usuario": {
+      "nombre": "cf",
+      "correo": "fggg@gmial.com"
+    }
+  },
+  {
+    "id": 22,
+    "tipo": "Robo",
+    "descripcion": "eeeeeeeeee",
+    "lat": 1233,
+    "lng": 24422,
+    "fecha": "2025-06-02T06:41:43.828Z",
+    "usuario": {
+      "nombre": "fff",
+      "correo": "u202221748@upc.edu.pe"
+    }
+  },
+  {
+    "id": 23,
+    "tipo": "Asalto",
+    "descripcion": "rtyytrytyt",
+    "lat": 1345,
+    "lng": 456,
+    "fecha": "2025-06-02T13:45:37.597Z",
+    "usuario": {
+      "nombre": "dff",
+      "correo": "fggg@gmial.com"
+    }
+  },
+  {
+    "id": 24,
+    "tipo": "Robo",
+    "descripcion": "ddd",
+    "lat": 12132,
+    "lng": 45523,
+    "fecha": "2025-06-17T00:21:08.244Z",
+    "usuario": {
+      "nombre": "Victor Snayder",
+      "correo": "u202311965@upc.edu.pe"
+    }
+  },
+  {
+    "id": 25,
+    "tipo": "Asalto",
+    "descripcion": "dddddddd",
+    "lat": -12,
+    "lng": -19,
+    "fecha": "2025-06-18T15:23:46.723Z",
+    "usuario": {
+      "nombre": "fghhfhg",
+      "correo": "combthomas81y8@honeys.be"
+    }
+  }
+]

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mapa de Reporte</title>
+  <link rel="stylesheet" href="../styles/mapa.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <!-- Heatmap plugin -->
+  <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo-container">
+        <img src="../styles/img/logo.png" alt="logo" class="logo" />
+      </div>
+      <div class="user-info">
+        <img class="avatar" src="../styles/img/user.png" alt="User avatar" />
+        <div>
+          <p class="user-name">Hi, Alex</p>
+          <p class="user-id">E173037</p>
+        </div>
+      </div>
+      <nav class="nav-menu">
+        <a href="dashboard.html" class="nav-btn">🏠 Home</a>
+        <a href="mapa.html" class="nav-btn active">📍 Mapa de reporte</a>
+        <a href="#" class="nav-btn">📊 Estadísticas</a>
+        <a href="#" class="nav-btn">⚙️ Configuración</a>
+      </nav>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main class="main-content">
+      <div class="header">
+        <h1>Mapa de Reporte</h1>
+      </div>
+      <div class="mapa-wrapper">
+        <div id="map"></div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+  <script src="../js/mapa.js"></script>
+</body>
+</html>

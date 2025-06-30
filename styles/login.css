@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e9f4f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor principal */
+.login-container {
+  background-color: #3d3d3d;
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo */
+.logo {
+  display: block;
+  margin: 0 auto 10px;
+  width: 80px;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Título */
+.login-box h2 {
+  text-align: center;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+/* Etiquetas */
+label {
+  display: block;
+  margin-top: 15px;
+  color: #f2f2f2;
+  font-size: 14px;
+}
+
+/* Inputs */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  background-color: #d5d5d5;
+  font-size: 16px;
+}
+
+/* Checkbox */
+.checkbox-container {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox-container label {
+  color: #ccc;
+  font-size: 13px;
+}
+
+/* Enlace de contraseña olvidada */
+.forgot-link {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+/* Botón de login */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #001b49;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #002d73;
+}
+
+/* Texto de registro */
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #eee;
+  font-size: 14px;
+}
+
+.signup-text a {
+  color: #fff;
+  text-decoration: underline;
+}

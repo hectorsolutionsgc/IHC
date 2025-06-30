@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e9f4f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor principal */
+.unete-container {
+  background-color: #3d3d3d;
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo */
+.logo {
+  display: block;
+  margin: 0 auto 10px;
+  width: 80px;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Título */
+.unete-box h2 {
+  text-align: center;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+/* Etiquetas */
+label {
+  display: block;
+  margin-top: 15px;
+  color: #f2f2f2;
+  font-size: 14px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  background-color: #999;
+  font-size: 16px;
+}
+
+/* Botón */
+.join-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 25px;
+  background-color: #001b49;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.join-btn:hover {
+  background-color: #002d73;
+}
+
+/* Texto inferior */
+.login-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #eee;
+  font-size: 14px;
+}
+
+.login-text a {
+  color: #fff;
+  text-decoration: underline;
+}
